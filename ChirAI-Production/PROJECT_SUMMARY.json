@@ -1,0 +1,28 @@
+{
+  "project_name": "ChirAI",
+  "bundle_id": "com.enablerdao.ChirAI",
+  "version": "1.4.0",
+  "build_number": "1",
+  "creation_time": "2025-06-04T23:50:14.751088",
+  "project_directory": "ChirAI-Production",
+  "files_created": {
+    "project_file": "ChirAI-Production/ChirAI.xcodeproj/project.pbxproj",
+    "info_plist": "ChirAI-Production/ChirAI/Info.plist",
+    "source_files": [
+      "ChirAI-Production/ChirAI/App/ChirAIApp.swift",
+      "ChirAI-Production/ChirAI/App/ContentView.swift",
+      "ChirAI-Production/ChirAI/Core/Services/ChatManager.swift",
+      "ChirAI-Production/ChirAI/Core/Services/OllamaService.swift"
+    ],
+    "localization_files": [
+      "ChirAI-Production/ChirAI/Resources/Localization/ja.lproj/Localizable.strings",
+      "ChirAI-Production/ChirAI/Resources/Localization/en.lproj/Localizable.strings"
+    ]
+  },
+  "next_steps": [
+    "Open project in Xcode",
+    "Set Development Team ID",
+    "Configure Code Signing",
+    "Build and Archive for App Store"
+  ]
+}

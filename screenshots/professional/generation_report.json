@@ -1,0 +1,21 @@
+{
+  "generation_time": "2025-06-04T23:45:35.538733",
+  "total_screenshots": 9,
+  "files": [
+    "screenshots/professional/iphone-6.7/chat_japanese_1290x2796.png",
+    "screenshots/professional/iphone-6.7/chat_english_1290x2796.png",
+    "screenshots/professional/iphone-6.7/agents_list_1290x2796.png",
+    "screenshots/professional/iphone-6.5/chat_japanese_1284x2778.png",
+    "screenshots/professional/iphone-6.5/chat_english_1284x2778.png",
+    "screenshots/professional/iphone-6.5/agents_list_1284x2778.png",
+    "screenshots/professional/iphone-5.5/chat_japanese_1242x2208.png",
+    "screenshots/professional/iphone-5.5/chat_english_1242x2208.png",
+    "screenshots/professional/iphone-5.5/agents_list_1242x2208.png"
+  ],
+  "quality": "App Store Professional",
+  "sizes_generated": [
+    "iphone-6.7",
+    "iphone-6.5",
+    "iphone-5.5"
+  ]
+}

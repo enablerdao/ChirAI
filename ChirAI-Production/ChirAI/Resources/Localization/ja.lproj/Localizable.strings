@@ -1,0 +1,10 @@
+/* ChirAI Japanese Localization */
+
+"app_name" = "ChirAI";
+"welcome_message" = "🌸 ChirAIへようこそ！美しい日本風デザインのローカルAIチャットアプリです。";
+"input_placeholder" = "メッセージを入力...";
+"settings" = "設定";
+"done" = "完了";
+"send" = "送信";
+"error_occurred" = "エラーが発生しました";
+"ollama_not_running" = "Ollamaが起動していることを確認してください";

@@ -1,0 +1,31 @@
+{
+  "app_preview_requirements": {
+    "duration": "15-30 seconds",
+    "resolution": "1080x1920 (portrait)",
+    "frame_rate": "30 fps",
+    "format": "MP4, MOV, M4V",
+    "max_file_size": "500 MB",
+    "audio": "Optional but recommended",
+    "captions": "Required for accessibility"
+  },
+  "content_guidelines": {
+    "must_show": [
+      "Actual app functionality",
+      "Real user interface",
+      "Core features in action",
+      "Authentic user experience"
+    ],
+    "cannot_include": [
+      "Pricing information",
+      "Competitive comparisons",
+      "Call-to-action text",
+      "Awards or review quotes"
+    ]
+  },
+  "accessibility": {
+    "captions": "Closed captions in all supported languages",
+    "audio_description": "For complex visual content",
+    "text_size": "Readable on all device sizes",
+    "contrast": "WCAG AA compliance"
+  }
+}

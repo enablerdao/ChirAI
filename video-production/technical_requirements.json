@@ -1,0 +1,43 @@
+{
+  "equipment": {
+    "cameras": [
+      "iPhone 15 Pro Max (for device shots)",
+      "Professional DSLR/Mirrorless (for studio shots)",
+      "Macro lens (for detail shots)"
+    ],
+    "audio": [
+      "Professional microphone (voice recording)",
+      "Audio interface and monitoring",
+      "Acoustic treatment for recording space"
+    ],
+    "lighting": [
+      "Softbox lighting kit",
+      "RGB LED panels (for mood lighting)",
+      "Reflectors and diffusers"
+    ],
+    "software": [
+      "Final Cut Pro / Adobe Premiere Pro",
+      "After Effects (motion graphics)",
+      "Logic Pro / Pro Tools (audio)",
+      "Screen recording software"
+    ]
+  },
+  "technical_specs": {
+    "recording_format": "ProRes 422 HQ / 4K",
+    "audio_format": "48kHz/24-bit WAV",
+    "color_space": "Rec. 709",
+    "frame_rates": "30fps (app preview), 60fps (promotional)",
+    "delivery_formats": [
+      "MP4 H.264 (App Store)",
+      "MP4 H.265 (high quality)",
+      "WebM (web distribution)"
+    ]
+  },
+  "quality_standards": {
+    "video_bitrate": "10-15 Mbps (1080p)",
+    "audio_bitrate": "320 kbps AAC",
+    "color_accuracy": "Delta E < 3",
+    "motion_blur": "Natural (180° shutter)",
+    "compression": "High quality, optimized for streaming"
+  }
+}

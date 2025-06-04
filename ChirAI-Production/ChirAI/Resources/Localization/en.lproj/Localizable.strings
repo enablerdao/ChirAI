@@ -1,0 +1,10 @@
+/* ChirAI English Localization */
+
+"app_name" = "ChirAI";
+"welcome_message" = "🌸 Welcome to ChirAI! A beautiful Japanese-inspired local AI chat app.";
+"input_placeholder" = "Type a message...";
+"settings" = "Settings";
+"done" = "Done";
+"send" = "Send";
+"error_occurred" = "An error occurred";
+"ollama_not_running" = "Please make sure Ollama is running";

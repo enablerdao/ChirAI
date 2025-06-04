@@ -1,0 +1,66 @@
+{
+  "pre_production": {
+    "day_1": {
+      "tasks": [
+        "Script finalization and storyboard creation",
+        "Voice talent casting and direction",
+        "Music composition and audio design",
+        "App screen recording preparation"
+      ],
+      "deliverables": [
+        "Final scripts (JP/EN)",
+        "Detailed storyboards",
+        "Audio track demos",
+        "Recording setup test"
+      ]
+    }
+  },
+  "production": {
+    "day_2": {
+      "morning": [
+        "iPhone device setup and calibration",
+        "Screen recording: App interface navigation",
+        "Screen recording: Japanese conversation demo",
+        "Screen recording: English conversation demo"
+      ],
+      "afternoon": [
+        "UI/UX montage recording",
+        "Feature showcase screen captures",
+        "Settings and customization demos",
+        "Performance and speed demonstrations"
+      ]
+    },
+    "day_3": {
+      "morning": [
+        "Motion graphics creation",
+        "Logo animations and branding elements",
+        "Data visualization animations",
+        "Privacy protection visual metaphors"
+      ],
+      "afternoon": [
+        "Voice recording session (English)",
+        "Voice recording session (Japanese)",
+        "Music and sound effect integration",
+        "Audio post-production and mixing"
+      ]
+    }
+  },
+  "post_production": {
+    "day_4": {
+      "tasks": [
+        "Video editing and timeline assembly",
+        "Color correction and grading",
+        "Text overlay and typography",
+        "Transition and effect application"
+      ]
+    },
+    "day_5": {
+      "tasks": [
+        "Audio synchronization and mixing",
+        "Final quality control and review",
+        "Export in multiple formats",
+        "Subtitle creation (JP/EN)"
+      ]
+    }
+  }
+}
