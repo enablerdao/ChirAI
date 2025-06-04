@@ -1,0 +1,56 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ChirAI ${{ github.ref }}
+          body: |
+            ## 🌸 ChirAI Release ${{ github.ref }}
+            
+            ### What's New
+            - Local AI chat with Ollama integration
+            - Support for 14+ AI models
+            - Japanese and English conversation support
+            - Privacy-focused design
+            
+            ### Installation
+            1. Download the source code
+            2. Open in Xcode 15+
+            3. Build and run on iOS 17+
+            
+            ### Requirements
+            - iOS 17.0+
+            - Xcode 15.0+
+            - Ollama server running locally
+          draft: false
+          prerelease: false
+
+  build-ios:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Build iOS App
+        run: |
+          xcodebuild -scheme ChirAI -configuration Release -destination 'platform=iOS Simulator,name=iPhone 15' build
