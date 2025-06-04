@@ -17,6 +17,19 @@
 ### 🎉 **Production Ready!** 
 **完全にテスト済み - 日本語・英語の自然な会話が可能**
 
+## 📸 スクリーンショット
+
+### メイン機能
+![Main Interface](screenshots/main_interface.png) ![Chat View](screenshots/chat_view.png)
+
+### AI会話例
+![Japanese Chat](screenshots/japanese_chat.png) ![English Chat](screenshots/english_chat.png)
+
+### 設定とカスタマイズ  
+![Agents List](screenshots/agents_list.png) ![Settings](screenshots/settings.png)
+
+> **注意**: スクリーンショットは iOS シミュレーターで撮影可能です。詳細は [screenshots/README.md](screenshots/README.md) を参照してください。
+
 ---
 
 ## ✨ 主な特徴
