@@ -1,0 +1,95 @@
+{
+  "local_llm_services": {
+    "ollama": {
+      "status": "available",
+      "api_endpoint": "http://localhost:11434",
+      "openai_compatible_endpoint": "http://localhost:11434/v1",
+      "models": [
+        {
+          "name": "gemma3:4b",
+          "family": "gemma3",
+          "parameter_size": "4.3B",
+          "quantization": "Q4_K_M",
+          "size_gb": 3.1,
+          "description": "Google Gemma 3 model optimized for general conversation"
+        },
+        {
+          "name": "gemma3:1b",
+          "family": "gemma3", 
+          "parameter_size": "999.89M",
+          "quantization": "Q4_K_M",
+          "size_gb": 0.8,
+          "description": "Smaller Gemma 3 model for faster inference"
+        },
+        {
+          "name": "jaahas/qwen3-abliterated:0.6b",
+          "family": "qwen3",
+          "parameter_size": "596.05M",
+          "quantization": "Q4_K_M", 
+          "size_gb": 0.4,
+          "description": "Qwen 3 model with safety filters removed"
+        }
+      ],
+      "variant_models": [
+        {
+          "name": "variant-iter1-8262349e:latest",
+          "family": "gemma3",
+          "parameter_size": "4.3B",
+          "size_gb": 3.1,
+          "description": "Custom variant of Gemma 3"
+        },
+        {
+          "name": "variant-iter1-391b84f1:latest", 
+          "family": "gemma3",
+          "parameter_size": "4.3B",
+          "size_gb": 3.1,
+          "description": "Custom variant of Gemma 3"
+        },
+        {
+          "name": "variant-iter1-25a8cae8:latest",
+          "family": "qwen3",
+          "parameter_size": "596.05M",
+          "size_gb": 0.4,
+          "description": "Custom variant of Qwen 3"
+        }
+      ]
+    }
+  },
+  "api_compatibility": {
+    "ollama_native": {
+      "endpoint": "http://localhost:11434/api/generate",
+      "method": "POST",
+      "format": "ollama_native",
+      "tested": true
+    },
+    "openai_compatible": {
+      "endpoint": "http://localhost:11434/v1/chat/completions",
+      "method": "POST", 
+      "format": "openai_chat_completions",
+      "tested": true
+    }
+  },
+  "recommended_models": [
+    {
+      "name": "gemma3:1b",
+      "use_case": "Fast responses, lightweight tasks",
+      "pros": ["Quick inference", "Low memory usage"],
+      "cons": ["Limited capabilities compared to larger models"]
+    },
+    {
+      "name": "gemma3:4b", 
+      "use_case": "Balanced performance and quality",
+      "pros": ["Good reasoning abilities", "Reasonable speed"],
+      "cons": ["Higher memory usage"]
+    },
+    {
+      "name": "jaahas/qwen3-abliterated:0.6b",
+      "use_case": "Uncensored responses",
+      "pros": ["No content restrictions", "Very fast"],
+      "cons": ["May produce inappropriate content"]
+    }
+  ],
+  "total_models_available": 13,
+  "total_storage_used_gb": 28.5,
+  "last_updated": "2025-06-04T11:53:00Z"
+}
