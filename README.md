@@ -19,16 +19,25 @@
 
 ## 📸 スクリーンショット
 
-### メイン機能
-![Main Interface](screenshots/main_interface.png) ![Chat View](screenshots/chat_view.png)
+### 日本語チャット画面
+<img src="screenshots/simulator/chat_japanese.png" width="300" alt="Japanese Chat Interface">
 
-### AI会話例
-![Japanese Chat](screenshots/japanese_chat.png) ![English Chat](screenshots/english_chat.png)
+美しい日本風デザインで、自然な日本語会話が可能。qwen2.5:3b モデルによる高品質な応答。
 
-### 設定とカスタマイズ  
-![Agents List](screenshots/agents_list.png) ![Settings](screenshots/settings.png)
+### 英語チャット画面
+<img src="screenshots/simulator/chat_english.png" width="300" alt="English Chat Interface">
 
-> **注意**: スクリーンショットは iOS シミュレーターで撮影可能です。詳細は [screenshots/README.md](screenshots/README.md) を参照してください。
+プライバシーに関する詳細な説明など、包括的な英語応答を提供。
+
+### AI エージェント選択
+<img src="screenshots/simulator/agents_list.png" width="300" alt="AI Agents List">
+
+14種類以上のAIモデルから選択可能。用途に応じて最適なモデルを使用。
+
+### 設定画面
+<img src="screenshots/simulator/settings.png" width="300" alt="Settings Screen">
+
+テーマ、言語、プライバシー設定など、アプリを自分好みにカスタマイズ。
 
 ---
 

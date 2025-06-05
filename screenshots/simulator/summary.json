@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-06-05 08:59:47",
+  "screenshots": [
+    {
+      "file": "chat_japanese.png",
+      "description": "Japanese chat interface",
+      "resolution": "1179x2556"
+    },
+    {
+      "file": "chat_english.png",
+      "description": "English chat interface",
+      "resolution": "1179x2556"
+    },
+    {
+      "file": "agents_list.png",
+      "description": "AI agents selection",
+      "resolution": "1179x2556"
+    },
+    {
+      "file": "settings.png",
+      "description": "Settings screen",
+      "resolution": "1179x2556"
+    }
+  ]
+}
