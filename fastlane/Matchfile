@@ -1,0 +1,33 @@
+# Fastlane Match 設定 (証明書管理)
+
+# Git リポジトリ (証明書保存用のプライベートリポジトリ)
+git_url(ENV["MATCH_GIT_URL"] || "https://github.com/enablerdao/certificates")
+
+# 暗号化設定
+storage_mode("git")
+type("appstore") # or "adhoc", "development"
+
+# アプリ識別子
+app_identifier(["com.enablerdao.ChirAI"])
+
+# ユーザー名
+username(ENV["APPLE_ID"])
+
+# チーム設定
+team_id(ENV["TEAM_ID"])
+itc_team_id(ENV["ITC_TEAM_ID"])
+
+# 証明書設定
+generate_apple_certs(true)
+skip_provisioning_profiles(false)
+
+# プラットフォーム
+platform("ios")
+
+# クローン設定
+shallow_clone(true)
+clone_branch_directly(true)
+
+# 追加設定
+force_for_new_devices(true) # 新しいデバイスが追加されたら自動更新
+skip_confirmation(true) # 確認をスキップ

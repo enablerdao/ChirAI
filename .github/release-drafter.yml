@@ -1,0 +1,77 @@
+# リリースノート自動生成設定
+
+name-template: 'v$RESOLVED_VERSION 🌸'
+tag-template: 'v$RESOLVED_VERSION'
+
+categories:
+  - title: '🚀 新機能'
+    labels:
+      - 'feature'
+      - 'enhancement'
+  - title: '🐛 バグ修正'
+    labels:
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+  - title: '🔒 セキュリティ'
+    labels:
+      - 'security'
+  - title: '📚 ドキュメント'
+    labels:
+      - 'documentation'
+      - 'docs'
+  - title: '🧰 メンテナンス'
+    labels:
+      - 'chore'
+      - 'maintenance'
+
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: '\<*_&'
+
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
+
+template: |
+  ## 🌸 ChirAI v$RESOLVED_VERSION リリース
+
+  ### ✨ ハイライト
+  
+  ChirAI は完全プライバシー保護のローカルAIチャットアプリです。
+  
+  - 🔒 **完全ローカル処理** - データは外部送信されません
+  - 🤖 **14+ AIモデル対応** - 用途に応じて選択可能
+  - 🇯🇵 **完璧な日本語サポート** - qwen2.5:3b による自然な会話
+  - 🌸 **美しい日本風デザイン** - 桜テーマのエレガントなUI
+
+  ### 📝 変更履歴
+
+  $CHANGES
+
+  ### 📱 インストール
+
+  **App Store**: [ダウンロード](https://apps.apple.com/app/chirai)
+  
+  **必要環境**:
+  - iOS 17.0以上
+  - [Ollama](https://ollama.ai) のインストール
+
+  ### 🙏 コントリビューター
+
+  このリリースに貢献してくださった皆様に感謝します！
+
+  $CONTRIBUTORS
+
+  ---
+  
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
+  
+  🌸 **ChirAI - Beautiful. Intelligent. Private.**

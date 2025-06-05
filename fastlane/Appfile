@@ -1,0 +1,19 @@
+# Fastlane App 設定
+
+app_identifier("com.enablerdao.ChirAI")
+apple_id(ENV["APPLE_ID"])
+itc_team_id(ENV["ITC_TEAM_ID"])
+team_id(ENV["TEAM_ID"])
+
+# Git リポジトリ
+git_url("https://github.com/enablerdao/ChirAI")
+
+# デフォルト設定
+for_platform :ios do
+  app_identifier("com.enablerdao.ChirAI")
+  
+  # 環境別設定
+  for_lane :beta do
+    app_identifier("com.enablerdao.ChirAI.beta")
+  end
+end
